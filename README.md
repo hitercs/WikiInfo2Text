@@ -1,5 +1,5 @@
 # WikiInfo2Text
-This repo hosts the data used in paper "Enhancing Neural Data-To-Text Generation Models with External Background Knowledge (Chen et al., 2019)"
+This repo hosts the data used in paper "Enhancing Neural Data-To-Text Generation Models with External Background Knowledge (Chen et al., EMNLP, 2019)"
 
 This dataset is an extension of previous [WikiBio dataset](https://github.com/DavidGrangier/wikipedia-biography-dataset) where we extend previous single Biography domain to other twenty domains (e.g. Album, Book etc.) and we augment the infobox with external knowledge from [WikiData](https://www.wikidata.org/wiki/Wikidata:Main_Page).
 
@@ -71,7 +71,7 @@ The data is in json format.
 As you can see, the basic fields like *type*, *artist*, *released* etc. state basic information in the infobox. The field *Sentences* is the reference sentence. The external knowledge from Wikidata is given in *KB_id_tuples* and *KB_str_tuples* fields. Each tuple is list of four elements eg. (["genre", "Q217199", "P279", "Q2188189"]). The elements [*Q217199*](https://www.wikidata.org/wiki/Q217199), [*P279*](https://www.wikidata.org/wiki/Property:P279) and [*Q2188189*](https://www.wikidata.org/wiki/Q2188189) are the subject, relation and object of the fact respectively, and field name *genre* indicates the fact is expanded from this field in infobox.
 
 ### Download
-[Click here](https://drive.google.com/drive/folders/1H0AZ23sY3W6e2EsXeJ30PCANl1rTZMjU) to download the data.
+[Click here](https://drive.google.com/drive/folders/1H0AZ23sY3W6e2EsXeJ30PCANl1rTZMjU) to download the data from Google Drive.
 
 ### Licence
 License information is provided in [License.txt](https://github.com/hitercs/WikiInfo2Text/blob/master/LICENSE.txt)
