@@ -74,4 +74,4 @@ As you can see, the basic fields like *type*, *artist*, *released* etc. state ba
 [Click here](https://drive.google.com/drive/folders/1H0AZ23sY3W6e2EsXeJ30PCANl1rTZMjU) to download the data.
 
 ### Licence
-License information is provided in [License.txt]()
+License information is provided in [License.txt](https://github.com/hitercs/WikiInfo2Text/blob/master/LICENSE.txt)
