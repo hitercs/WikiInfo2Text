@@ -1,5 +1,5 @@
 # WikiInfo2Text
-This repo hosts the data used in paper ["Enhancing Neural Data-To-Text Generation Models with External Background Knowledge (Chen et al., EMNLP, 2019)"](https://github.com/hitercs/WikiInfo2Text/blob/master/emnlp_19_paper.pdf)
+This repo hosts the data used in paper ["Enhancing Neural Data-To-Text Generation Models with External Background Knowledge (Chen et al., EMNLP, 2019)"](https://github.com/hitercs/WikiInfo2Text/raw/master/emnlp_19_paper.pdf)
 
 This dataset is an extension of previous [WikiBio dataset](https://github.com/DavidGrangier/wikipedia-biography-dataset) where we extend previous single Biography domain to other twenty domains (e.g. Album, Book etc.) and we augment the infobox with external knowledge from [WikiData](https://www.wikidata.org/wiki/Wikidata:Main_Page).
 
